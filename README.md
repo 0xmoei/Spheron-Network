@@ -93,7 +93,7 @@ Once you've verified the node is running, return to the setup page on the Sphero
 
 ![image](https://github.com/user-attachments/assets/4c22eeda-92b3-4951-a572-d40bceb7585d)
 
-The system will now perform checks to validate if your node is active and correctly configured
+3. The system will now perform checks to validate if your node is active and correctly configured
 
 The validation process may take a few minutes. During this time, the system verifies your node's connectivity, resource availability, and configuration. Once your node is confirmed active, you will be automatically directed to your Fizz dashboard
 
