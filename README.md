@@ -112,6 +112,10 @@ Role: https://guild.xyz/spheronfdn
 
 ![image](https://github.com/user-attachments/assets/1ffe2ef2-4acc-49df-bc78-b87d7d041f8e)
 
+## Intract Role
+Do this **[Task](https://www.intract.io/quest/66fc0ba3637a91d0af13e7fc?referralCode=yrsN1m&referralSource=QUEST_PAGE&referralLink=https%3A%2F%2Fwww.intract.io%2Fquest%2F66fc0ba3637a91d0af13e7fc%3Fcampaign_initiator_type%3Dexplore%26card_position%3D0
+)** and claim a role
+
 ## Check your VPS resources (RAM, CPU) with htop
 ```console
 # Install htop
