@@ -63,11 +63,12 @@ docker --version
 ```console
 # assuming I transfered the script to the main (root) folder of server
 chmod +x /root/fizzup.sh
+sudo sh
 ```
 
 5. Run Fizz Node Script
 ```
-sh /root/fizzup.sh
+./fizzup.sh
 ```
 
 
