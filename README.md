@@ -74,6 +74,12 @@ chmod +x /root/fizzup.sh
 
 ![image](https://github.com/user-attachments/assets/8c9d5d68-fa8c-42be-96e3-25f9958a0c25)
 
+> You’ll earn more if your node provides higher-tier resources such as a powerful GPU or more CPU cores.
+
+> Fizz Nodes must maintain at least 50% uptime within an ERA (24 hours) to receive rewards
+
+> I've ran this node using CPU-only but you can run with GPU for more rewards
+
 ## Check Node health
 ```
 docker compose -f ~/.spheron/fizz/docker-compose.yml logs -f
@@ -125,6 +131,7 @@ sudo apt install htop
 htop
 ```
 ![image](https://github.com/user-attachments/assets/f767070a-543a-4a43-a8d0-8150bfbcf487)
+
 
 
 
