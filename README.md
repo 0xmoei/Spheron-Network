@@ -112,6 +112,16 @@ Role: https://guild.xyz/spheronfdn
 
 ![image](https://github.com/user-attachments/assets/1ffe2ef2-4acc-49df-bc78-b87d7d041f8e)
 
+## Check your VPS resources (RAM, CPU) with htop
+```
+# Install htop
+sudo apt install htop
+
+# run htop
+htop
+```
+![image](https://github.com/user-attachments/assets/f767070a-543a-4a43-a8d0-8150bfbcf487)
+
 
 
 
