@@ -3,6 +3,8 @@ Spheron’s Fizz Nodes offer a low-barrier entry point for anyone looking to con
 
 Whether you're looking to run a basic CPU configuration or a powerful GPU setup, this guide will walk you through the entire process
 
+***You earn $FN points that will eventually merge with $SPHN tokens***
+
 
 # Step-by-Step Guide to Run Fizz Node
 
@@ -63,13 +65,54 @@ docker --version
 ```console
 # assuming I transfered the script to the main (root) folder of server
 chmod +x /root/fizzup.sh
-sudo sh
 ```
 
 5. Run Fizz Node Script
 ```
 ./fizzup.sh
 ```
+
+![image](https://github.com/user-attachments/assets/8c9d5d68-fa8c-42be-96e3-25f9958a0c25)
+
+## Check Node health
+```
+docker compose -f ~/.spheron/fizz/docker-compose.yml logs -f
+```
+or
+```
+docker-compose -f ~/.spheron/fizz/docker-compose.yml logs -f
+```
+
+![image](https://github.com/user-attachments/assets/654ba484-14a2-4994-9a88-bdc10480b327)
+
+Once you've verified the node is running, return to the setup page on the Spheron Fizz App
+
+1. On the setup page, you'll see a "Check Status" button and a switch to "Automatically check status." Click the "Check Status" button to manually initiate a status check for your Fizz node
+
+2. Alternatively, you can toggle on the "Automatically check status" switch to have the system periodically check your node's status without manual intervention
+
+![image](https://github.com/user-attachments/assets/4c22eeda-92b3-4951-a572-d40bceb7585d)
+
+The system will now perform checks to validate if your node is active and correctly configured
+
+The validation process may take a few minutes. During this time, the system verifies your node's connectivity, resource availability, and configuration. Once your node is confirmed active, you will be automatically directed to your Fizz dashboard
+
+![image](https://github.com/user-attachments/assets/a35241fd-841b-4ad6-bd99-36dc1a74970c)
+
+
+## Claim your NFT in the Dashboard
+
+![Screenshot_371](https://github.com/user-attachments/assets/f4b932eb-1ba4-42aa-837e-8d31b36b67f2)
+
+
+## Join Discord and Claim your role
+Discord: https://discord.gg/spheron-network-745315423783878757
+
+Role: https://guild.xyz/spheronfdn
+
+![image](https://github.com/user-attachments/assets/1ffe2ef2-4acc-49df-bc78-b87d7d041f8e)
+
+
 
 
 
