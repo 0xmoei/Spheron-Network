@@ -1,4 +1,4 @@
-### Download script
+## 1. Download script
 1. Head over to fizz.spheron.network.
 2. Click Connect Wallet to link your wallet.
 3. Navigate to View My Fizz to open your Fizz dashboard.
@@ -6,7 +6,7 @@
 4. Download the latest script by clicking on the `Download Now` button.
 5. `fizzup-v1.0.1.sh` script file will be downloaded to your PC. Send it to your VPS root directory using Mobaxterm or Termius Clients
 
-## Run Script
+## 2. Run Script
 ```
 chmod +x /root/fizzup-v1.0.1.sh
 ```
@@ -20,7 +20,7 @@ chmod +x /root/fizzup-v1.0.1.sh
 * To exit: `Ctrl+C`
 
 
-## Check Node health
+## 3. Check Node health
 After running the script, head back to your dashboard and verify:
 * Fizz Node Version: It should display v1.1.0
 * Fizz Script Version: It should display **v1.0.1**
