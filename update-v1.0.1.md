@@ -1,5 +1,5 @@
 ## 1. Download script
-1. Head over to fizz.spheron.network.
+1. Head over to https://fizz.spheron.network
 2. Click Connect Wallet to link your wallet.
 3. Navigate to View My Fizz to open your Fizz dashboard.
 3. At the top, find the Setup tab and open the Installation page.
