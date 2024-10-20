@@ -1,4 +1,4 @@
-![Screenshot_432](https://github.com/user-attachments/assets/6c01972b-1560-423d-9e6e-6a8e705b2004)### Download script
+### Download script
 1. Head over to fizz.spheron.network.
 2. Click Connect Wallet to link your wallet.
 3. Navigate to View My Fizz to open your Fizz dashboard.
