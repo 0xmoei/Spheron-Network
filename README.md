@@ -64,12 +64,12 @@ docker --version
 4. Give persmissions to script
 ```console
 # assuming I transfered the script to the main (root) folder of server
-chmod +x /root/fizzup.sh
+chmod +x /root/fizzup-v1.0.1.sh
 ```
 
 5. Run Fizz Node Script
 ```
-./fizzup.sh
+./fizzup-v1.0.1.sh
 ```
 
 ![image](https://github.com/user-attachments/assets/8c9d5d68-fa8c-42be-96e3-25f9958a0c25)
