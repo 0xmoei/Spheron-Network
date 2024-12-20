@@ -23,7 +23,9 @@ chmod +x /root/fizzup.sh
 
 ## 3. Check Node health
 After running the script, head back to your dashboard and verify:
-* Fizz Node Version: It should display v1.1.0
-* Fizz Script Version: It should display **v1.0.1**
+* Fizz Node Version: It should display v1.1.7
+* Fizz Script Version: It should display **v1.1.2**
 
-![Screenshot_430](https://github.com/user-attachments/assets/2c283e24-3645-4449-aadc-256cb08b590d)
+![image](https://github.com/user-attachments/assets/50a59fcb-1be5-4bbc-8b72-0e896e08d85e)
+
+
