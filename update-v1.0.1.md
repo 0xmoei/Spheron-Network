@@ -4,14 +4,15 @@
 3. Navigate to View My Fizz to open your Fizz dashboard.
 3. At the top, find the Setup tab and open the Installation page.
 4. Download the latest script by clicking on the `Download Now` button.
-5. `fizzup-v1.0.1.sh` script file will be downloaded to your PC. Send it to your VPS root directory using Mobaxterm or Termius Clients
+5. `fizzup.sh` script file will be downloaded to your PC. Send it to your VPS root directory using Mobaxterm or Termius Clients
+6. Make sure the file name is `fizzup.sh`, if not then change it to the following.
 
 ## 2. Run Script
 ```
-chmod +x /root/fizzup-v1.0.1.sh
+chmod +x /root/fizzup.sh
 ```
 ```
-./fizzup-v1.0.1.sh
+./fizzup.sh
 ```
 
 ![Screenshot_432](https://github.com/user-attachments/assets/a6568565-9532-4268-a322-ba6d8fcafd3c)
