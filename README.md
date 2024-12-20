@@ -11,31 +11,7 @@ Whether you're looking to run a basic CPU configuration or a powerful GPU setup,
 ## Hardware Requirement
 ![image](https://github.com/user-attachments/assets/d9d9f0a7-a2f2-41da-8194-16d6dd4b8a00)
 
-## Register Fizz Node
-1. Open Your Browser: Navigate to https://fizz.spheron.network
-2. Sign up or log in through Gmail or Github
-3. Click on the “Register New Fizz Node” Button and Connect your wallet
-
-![image](https://github.com/user-attachments/assets/2876dc7d-dc59-460c-9a0d-f42ce0ea4343)
-
-4. Select your node's OS, resources, Region, Payment Tokens, and Provider ( I selected highest tier provider )
-
-![image](https://github.com/user-attachments/assets/536c09d7-1af6-4832-9b4c-33b9861fecd6)
-![image](https://github.com/user-attachments/assets/2ce43536-0cbd-435a-baf3-9beb0c05c645)
-
-5. Click **“Register Your Fizz Node“**, To complete the registration, you'll need some ETH on the Spheron chain for gas fees. If you don't have any, you can get some from our faucet at https://faucet.spheron.network
-
-![image](https://github.com/user-attachments/assets/afcd4cd4-240d-46aa-a5d8-6d35bdea0741)
-
-
-## Run the Fizz Node
-1. In setup page for your registered nod, You should find a link to download the `fizzup.sh` script
-
-![image](https://github.com/user-attachments/assets/3052022b-2a14-42a7-8613-bf6ea5624a08)
-
-2. Download the `fizzup.sh` script to your PC. Send it to your VPS using `Mobaxterm` or `Termius` Clients
-
-3. Install Docker
+## Install Docker
 ```console
 sudo apt update -y && sudo apt upgrade -y
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
@@ -61,15 +37,39 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker --version
 ```
 
-4. Give persmissions to script
+## Register Fizz Node
+1. Open Your Browser: Navigate to https://fizz.spheron.network
+2. Sign up or log in through Gmail or Github
+3. Click on the “Register New Fizz Node” Button and Connect your wallet
+
+![image](https://github.com/user-attachments/assets/2876dc7d-dc59-460c-9a0d-f42ce0ea4343)
+
+4. Select your node's OS, resources, Region, Payment Tokens, and Provider ( I selected highest tier provider )
+
+![image](https://github.com/user-attachments/assets/536c09d7-1af6-4832-9b4c-33b9861fecd6)
+![image](https://github.com/user-attachments/assets/2ce43536-0cbd-435a-baf3-9beb0c05c645)
+
+5. Click **“Register Your Fizz Node“**, To complete the registration, you'll need some ETH on the Spheron chain for gas fees. If you don't have any, you can get some from our faucet at https://faucet.spheron.network
+
+![image](https://github.com/user-attachments/assets/afcd4cd4-240d-46aa-a5d8-6d35bdea0741)
+
+
+## Run the Fizz Node
+1. In setup page for your registered nod, You should find a link to download the `fizzup.sh` script
+
+![image](https://github.com/user-attachments/assets/3052022b-2a14-42a7-8613-bf6ea5624a08)
+
+2. Download the `fizzup.sh` script to your PC. Send it to your VPS using `Mobaxterm` or `Termius` Clients
+
+3. Give persmissions to script
 ```console
 # assuming I transfered the script to the main (root) folder of server
-chmod +x /root/fizzup-v1.0.1.sh
+chmod +x /root/fizzup.sh
 ```
 
-5. Run Fizz Node Script
+4. Run Fizz Node Script
 ```
-./fizzup-v1.0.1.sh
+./fizzup.sh
 ```
 
 ![image](https://github.com/user-attachments/assets/8c9d5d68-fa8c-42be-96e3-25f9958a0c25)
@@ -82,11 +82,11 @@ chmod +x /root/fizzup-v1.0.1.sh
 
 ## Check Node health
 ```
-docker compose -f ~/.spheron/fizz/docker-compose.yml logs -f
+docker compose -fn 100 ~/.spheron/fizz/docker-compose.yml logs -f
 ```
 or
 ```
-docker-compose -f ~/.spheron/fizz/docker-compose.yml logs -f
+docker-compose -fn 100 ~/.spheron/fizz/docker-compose.yml logs -f
 ```
 
 ![image](https://github.com/user-attachments/assets/654ba484-14a2-4994-9a88-bdc10480b327)
