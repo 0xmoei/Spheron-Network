@@ -1,31 +1,24 @@
-## 1. Download script
-1. Head over to https://fizz.spheron.network
-2. Click Connect Wallet to link your wallet.
-3. Navigate to View My Fizz to open your Fizz dashboard.
-3. At the top, find the Setup tab and open the Installation page.
-4. Download the latest script by clicking on the `Download Now` button.
-5. `fizzup.sh` script file will be downloaded to your PC. Send it to your VPS root directory using Mobaxterm or Termius Clients
-6. Make sure the file name is `fizzup.sh`, if not then change it to the following.
+## Update Node
+**1. Head over to https://fizz.spheron.network**
+**2. Go to `Setup` tab**
 
-## 2. Run Script
-```
-chmod +x /root/fizzup.sh
-```
-```
-./fizzup.sh
+![Screenshot_484](https://github.com/user-attachments/assets/14e92598-43c0-40ef-b9b9-79af16127708)
+
+**3. Click on `Generate Command`**
+
+![Screenshot_482](https://github.com/user-attachments/assets/6a2daea2-da00-4641-b7a0-ec14cb643811)
+
+**4. Install Spheron CLI**
+```console
+curl -sL1 https://sphnctl.sh | bash
 ```
 
-![Screenshot_432](https://github.com/user-attachments/assets/a6568565-9532-4268-a322-ba6d8fcafd3c)
+**5. Update your Node with generated command starting with `sphnctl fizz start --token 0x...`**
 
-* After a while you get the logs like picture above: `Health check ack received.`
-* To exit: `Ctrl+C`
+![Screenshot_483](https://github.com/user-attachments/assets/9d0ae61e-a4c2-4e79-af62-24427023bea1)
 
 
-## 3. Check Node health
-After running the script, head back to your dashboard and verify:
-* Fizz Node Version: It should display v1.1.7
-* Fizz Script Version: It should display **v1.1.2**
+6. When you get `Health check ack received.` logs in terminal, your Node is good and running. You can quit with `Ctrl+C`
 
-![image](https://github.com/user-attachments/assets/50a59fcb-1be5-4bbc-8b72-0e896e08d85e)
-
+![Screenshot_485](https://github.com/user-attachments/assets/684f1dfa-720a-4a35-8da8-ca5a91a21532)
 
