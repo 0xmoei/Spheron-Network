@@ -1,5 +1,6 @@
 ## Update Node
 **1. Head over to https://fizz.spheron.network**
+
 **2. Go to `Setup` tab**
 
 ![Screenshot_484](https://github.com/user-attachments/assets/14e92598-43c0-40ef-b9b9-79af16127708)
